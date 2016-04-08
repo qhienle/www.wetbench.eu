@@ -1,0 +1,162 @@
+/* Two-Column Theme version 1 (qhienle@gmail.com) */
+
+/* General elements. Specific elements in separate files named "2col-*.css" */
+body { 
+	margin: 0;
+	padding: 0;
+	text-align: center; /* For browsers that do not support auto margin centering for #container  */
+	color: #545454;
+}
+p {
+	text-align: justify;
+}
+.right {
+	font-size: 90%;
+	text-align: right;
+	margin: 0;
+}
+h2 {
+	padding-top: 5px;
+	padding-left: 10px;
+	background-image: url(images/logo_bg-round.png);
+	color: white;	
+}
+h3 {
+	color: #660000;	
+}
+a:link { color: black; }
+a:visited { color: black; }
+a:hover { color: gray; }
+
+/* Header logo */
+#logo { 
+	/*min-width: 800px; max-width: 800px; */
+	width: 800px;
+	/* Specific, see 2col-wetbench.css or 2col-cv.css
+	height: 200px;
+	height: 100px;
+	background-image: url(../graphics/wetbench-logo_800x200.png);
+	background-image: url(images/logo_bg.png);
+	*/
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: small;
+}
+h1.logotext {
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	font-size: 36px;
+}
+
+/* Main container, will hold the two columns */
+#container {
+	width: 800px;
+	/*min-width: 800px; max-width: 800px; */
+	margin: 0 auto; /* margin-top must be 0 to stick w/ <div id="logo"> */
+	margin-bottom: 50px;
+	background-color: rgb(255, 255, 255);
+	/*background: silver url(img_with_left_bgcolor.png) repeat-y*/
+	font-family: sans-serif;
+	font-size: small;
+	text-align: justify;
+}
+
+/* Top and bottom delimiter */
+.separator {
+	width: 760px;
+	clear: both;
+	margin: 0;
+	padding: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	/* Specific, see 2col-wetbench.css or 2col-cv.css
+	background-color: #666600;
+	background-color: rgb(153, 102, 51);
+	*/
+	color: rgb(255, 255, 255);
+	text-align: right;
+	font-size: 90%;
+}
+.separator :link {
+	color: white;
+	text-decoration: none;
+}
+.separator :visited {
+	color: white;
+	text-decoration: none;
+}
+
+#leftpanel {
+	float: left; 
+	display: inline;
+	width: 499px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-right: 1px dotted #99c;
+}
+
+#rightpanel {
+	float: left;
+	display: inline;
+	width: 180px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.rightpanel p {
+	text-align: right;
+}
+.rightpanel :link {
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+.rightpanel :visited {
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
+.rightpanel :hover {
+	color: yellow;
+	/* background: white; */
+	text-decoration: underline;
+	text-align: right;
+}
+
+/* PAGE LAYOUT =================================================================
+
+<body>
++------------------------------------------------------------------------------+
+|                                                                              |
+|                                                                              |
+|                                                                800pxX100px   |
++------------------------------------------------------------------------------+
+| 800pxX100px                                                                  |
++------------------------------------------------------------------------------+
+|                                                  .                           |
+|                                                  .                           |
+|                                                  .                           |
+|                                                  .                           |
+|                                                  .                           |
+|                                                  .                           |
+|<-50px-><-------------499px------------><-50px-><1px><10px><---180px---><10px>|
++------------------------------------------------------------------------------+
+|                                   800pxX100px                                |
++------------------------------------------------------------------------------+
+<body>
+
+*/

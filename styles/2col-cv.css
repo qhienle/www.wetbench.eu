@@ -1,0 +1,16 @@
+/* Two-Column Theme for cv version 1 (qhienle@gmail.com) */
+
+/* Specific elements. See also 2col.css */
+
+/* Header logo */
+#logo { 
+	height: 100px;
+	background-image: url(images/logo_bg.png);
+}
+
+/* Main container, will hold the two columns */
+/* Top and bottom delimiter */
+.separator {
+	background-color: rgb(153, 102, 51);
+}
+

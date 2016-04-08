@@ -1,0 +1,16 @@
+/* Two-Column Theme for wetbench version 1 (qhienle@gmail.com) */
+
+/* Specific elements. See also 2col.css */
+
+/* Header logo */
+#logo { 
+	height: 200px;
+	background-image: url(../graphics/wetbench-logo_800x200.png);
+}
+
+/* Main container, will hold the two columns */
+/* Top and bottom delimiter */
+.separator {
+	background-color: #666600;
+}
+
